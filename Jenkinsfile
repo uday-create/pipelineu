@@ -10,7 +10,7 @@ node{
     slackSend baseUrl: 'https://hooks.slack.com/services/',
       channel: 'jenkins-pipeline-demo', 
       color: 'good', iconEmoji: 'slack', 
-      message: 'hello jenkins', 
+      message: 'hello jenkins-second', 
       tokenCredentialId: 'slack id',
       username: 'uday'
   }
